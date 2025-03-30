@@ -33,17 +33,17 @@
             };
             combo_right_gui {
                 timeout-ms = <50>;
-                key-positions = <20 21>;
+                key-positions = <21 22>;
                 bindings = <&kp LGUI>;
             };
             combo_left_alt {
                 timeout-ms = <50>;
-                key-positions = <37 38>;
+                key-positions = <38 39>;
                 bindings = <&kp LALT>;
             };
             combo_right_alt {
                 timeout-ms = <50>;
-                key-positions = <45 46>;
+                key-positions = <46 47>;
                 bindings = <&kp LALT>;
             };
     };
