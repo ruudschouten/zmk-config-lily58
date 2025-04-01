@@ -160,13 +160,13 @@
 // ----------------------------------------------------------------------------------------------------------------
 // |     |            |            |            |            |            |                   |      |       |       |      |       |       |
 // |     |            |            |            | SHIFT + F6 | ALT + F12  |                   |      |       |       |      |       |       |
-// |     | CTRL + A   |CTRL+SHIFT+R|  CTRL + S  | CTRL+SHFT+B| CTRL+ALT+L |                   |      |       |       |      |       |       |
+// |     | CTRL + A   |CTRL+SHIFT+R|  CTRL + S  | CTRL+SHFT+T|CTRL+ALT+L |                   |      |       |       |      |       |       |
 // |     | CTRL + Z   |  CTRL + X  |  CTRL + C  | CTRL + B   |  CTRL + V  |        |  |       |      |       |       |      |       |       |
 //                                 |            |            |            |        |  |  ADJ  |      |       |       |
             bindings = <
 &trans     &trans      &trans       &trans     &trans       &trans                         &trans      &trans      &trans      &trans      &trans       &trans
 &trans     &trans      &trans       &trans     &kp LS(F6)   &kp LA(F12)                    &trans      &trans      &trans      &trans      &trans       &trans
-&trans     &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LA(B))&kp LC(LA(L))                  &trans      &trans      &trans      &trans      &trans       &trans
+&trans     &kp LC(A)   &kp LC(LS(R))&kp LC(S)  &kp LC(LS(T))&kp LC(LA(L))                  &trans      &trans      &trans      &trans      &trans       &trans
 &trans     &kp LC(Z)   &kp LC(X)    &kp LC(C)  &kp LC(B)    &kp LC(V)   &trans   &trans    &trans      &trans      &trans      &trans      &trans       &trans
                                     &trans     &trans       &trans      &trans   &mo ADJ   &trans      &trans      &trans
             >;
