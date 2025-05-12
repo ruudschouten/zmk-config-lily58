@@ -64,7 +64,7 @@
 // ------------------------------------------------------------------------------------------------------------
 // |  ESC  |  1  |  2  |  3    |  4   |  5   |                   |  6   |  7    |  8    |  9   |   0   |   +   |
 // |  TAB  |  Q  |  W  |  F    |  P   |  B   |                   |  J   |  L    |  U    |  Y   |   ;   |   -   |
-// |  BSPC |  A  | R $ |  S ⎈  |  T ⇧ |  G   |                   |  M   |  N ⇧  |  E ⎈  |  I $ |   O   |   '   |
+// |  BSPC |  A  | R $ |  S ⎈ |  T ⇧ |  G   |                   |  M   |  N ⇧  |  E ⎈  |  I $ |   O   |   '   |
 // |  DEL  |  Z  |  X  |  C    |  D   |  V   |   "["  |  |  "]"  |  K   |  H    |  ,    |  .   |   /   |  TAB  |
 //                     | ENTER | GUI  |  SC  |  SPACE |  | ENTER |  NAV |  BSPC |  DEL  |
             bindings = <
@@ -87,14 +87,14 @@
             // ┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛
 // ------------------------------------------------------------------------------------------------------------
 // |     |     |     |      |      |      |                   |      |       |       |          |       |       |
-// |     |     |     |      |      |      |                   |      | PAGEUP|   UP  | PAGEDOWN |       |       |
-// |     |     | ALT | CTRL | SHIFT|      |                   |      |  LEFT |  DOWN | RIGHT    |       |       |
+// |     |     |     |      |      |      |                   |      | PAGEUP|       | PAGEDOWN |       |       |
+// |     |     | ALT | CTRL | SHIFT|      |                   | LEFT | DOWN  |  UP   | RIGHT    |       |       |
 // |     |     |     |      |      |      |        |  |       |      |  HOME |  CAPS |  END     |       |       |
 //                   |      |      |      |        |  |  ADJ  |      |       |       |
             bindings = <
 &trans     &trans       &trans      &trans      &trans      &trans                       &trans      &trans      &trans      &trans      &trans       &trans
 &trans     &trans       &trans      &trans      &trans      &trans                       &trans      &kp PG_UP   &kp UP      &kp PG_DN   &trans       &trans
-&trans     &trans       &kp LALT    &kp LCTRL   &kp LSHIFT  &trans                       &trans      &kp LEFT    &kp DOWN    &kp RIGHT   &trans       &trans
+&trans     &trans       &kp LALT    &kp LCTRL   &kp LSHIFT  &trans                       &kp LEFT    &kp DOWN    &kp DOWN    &kp RIGHT   &trans       &trans
 &trans     &trans       &trans      &trans      &trans      &trans    &trans   &trans    &trans      &kp HOME    &kp CAPS    &kp END     &trans       &trans
                                     &trans      &trans      &trans    &trans   &mo ADJ   &trans      &trans      &trans
             >;
