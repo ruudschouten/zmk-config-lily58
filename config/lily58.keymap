@@ -93,8 +93,8 @@
 //                   |      |      |      |        |  |  ADJ  |      |       |       |
             bindings = <
 &trans     &trans       &trans      &trans      &trans      &trans                       &trans      &trans      &trans      &trans      &trans       &trans
-&trans     &trans       &trans      &trans      &trans      &trans                       &trans      &kp PG_UP   &kp UP      &kp PG_DN   &trans       &trans
-&trans     &trans       &kp LALT    &kp LCTRL   &kp LSHIFT  &trans                       &kp LEFT    &kp DOWN    &kp DOWN    &kp RIGHT   &trans       &trans
+&trans     &trans       &trans      &trans      &trans      &trans                       &trans      &kp PG_UP   &trans      &kp PG_DN   &trans       &trans
+&trans     &trans       &kp LALT    &kp LCTRL   &kp LSHIFT  &trans                       &kp LEFT    &kp DOWN    &kp UP      &kp RIGHT   &trans       &trans
 &trans     &trans       &trans      &trans      &trans      &trans    &trans   &trans    &trans      &kp HOME    &kp CAPS    &kp END     &trans       &trans
                                     &trans      &trans      &trans    &trans   &mo ADJ   &trans      &trans      &trans
             >;
